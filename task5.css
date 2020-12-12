@@ -1,0 +1,426 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family:  sans-serif;
+}
+.main{
+}
+header{
+	background: url("./Task5/Images/header-bg.jpg") no-repeat center center;
+	position: relative;
+	height: 750px;
+
+}
+nav{
+	padding: 20px 80px;
+	padding-bottom: 0px;
+}
+nav img{
+	display: inline-flex;
+	justify-content: space-between;
+	padding-right: 20px;
+}
+nav ul{
+	text-decoration: none;
+	list-style: none;
+	display: inline-flex;
+	justify-content: space-between;
+	position: absolute;
+	right: 0px;
+	padding-right: 80px;
+	margin-top: 10px;
+}
+nav ul li{
+	color: white;
+	justify-content: space-between;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 13px;
+}
+.header-text{
+	display: inline-flex;
+	padding: 40px 80px;
+}
+.filter{
+	position: absolute;
+	height: 750px;
+	width: 100%;
+	background-color: rgba(20,20,20,0.8);
+}
+.text1{
+	color: white;
+	padding-top: 170px;
+}
+.text1 h1{
+	font-size: 40px;
+}
+.text1 p{
+	font-size: 15px;
+}
+
+.text1 button{
+	color: white;
+	background-color: rgb(252, 207, 3);
+	border:none;
+	outline: none;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 10px 30px;
+	margin-top: 30px;
+}
+.filter2{
+	background-color: rgba(1, 26, 48,0.75);
+	padding-bottom: 2px;
+
+}
+
+.box1{
+	border:1px gray solid;
+	margin-left: 20px;
+	
+}
+.box1 h4{
+	color: white;
+	font-size: 20px;
+	margin: 40px 70px 20px 70px;
+}
+.box1 .car{
+	width: 370px;
+	height: 40px;
+	color: gray;
+	padding-left: 10px;
+	border-radius: 3px;
+	font-size: 15px;
+	outline: none;
+	border:none;
+	margin: 5px 0px;
+}
+.box1 .car2{
+	padding-left: 10px;
+	width: 180px;
+	height: 40px;
+	color: gray;
+	border-radius: 3px;
+	margin: 5px 0px;
+	font-size: 15px;
+	outline: none;
+	border:none;
+}
+.box1 button{
+	width: 380px;
+	height: 40px;
+	color: white;
+	background-color:  rgb(252, 207, 3);
+	padding-left: 10px;
+	border:none;
+	outline: none;
+	border-radius: 3px;
+	font-size: 15px;
+	margin-bottom: 40px;
+	margin-top: 5px;
+}
+.sec1{
+	padding: 25px 100px 20px 100px;
+
+}
+.sec1 h1{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.sec1 p{
+	text-align: center;
+	color: gray;
+	font-size: 15px;
+}
+.cards-box{
+	display: inline-flex;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+.card{
+	background-color: rgb(237, 235, 235);
+	border-radius: 10px;
+	padding: 30px 40px;
+	margin: 15px;
+	text-align: left;
+}
+.card p{
+	text-align: left;
+}
+.card h4{
+	font-size: 18px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+.sec2{
+	padding: 30px 60px;
+	display: flex;
+	justify-content: space-between;
+}
+.img2{
+	padding-right: 140px;
+}
+.img2 img{
+	width: 120%;
+}
+.text2{
+	width: 80%;
+	padding-top: 100px;
+	padding-left: 30px;
+}
+.text2 p{
+	color: gray;
+	font-size: 15px;
+	padding-bottom: 20px;
+	line-height: 1.5;	
+}
+.text2 button{
+	color: white;
+	background-color: rgb(252, 207, 3);
+	border:none;
+	outline: none;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 13px 35px;
+
+}
+.sec3{
+	padding: 20px 80px;
+	padding-bottom: 40px;
+}
+.sec3 h1{
+	text-align: center;
+	margin-top: 20px;
+}
+.sec3 p{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.big-card{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+.text3{
+	text-align: left;
+	width: 40%;
+	padding-top: 30px;
+	padding-left: 70px;
+	padding-right: 0px;
+}
+.text3 p{
+	color: gray;
+	font-size: 15px;
+	padding-bottom: 20px;
+	line-height: 1.5;
+	text-align: left;	
+}
+.text3 button{
+	color: white;
+	background-color: black;
+	border:none;
+	outline: none;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 13px 35px;
+	text-align: center;
+
+}
+.img3{
+	padding-right: 30px;
+	padding-top: 0px;
+}
+.img3 img{
+	width: 100%;
+	text-align: center;
+
+}
+.text3 ul{
+	list-style: none;
+	color: gray;
+	font-size: 15px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+.head-sec3{
+	display:flex;
+	justify-content: space-between;
+}
+.head-sec3 h5{
+	float: left;
+	color: black;
+	font-size: 18px;
+	padding-top: 20px;
+}
+.head-sec3 h3{
+	float: right;
+	color: rgb(252, 207, 3);
+	font-size: 35px;
+
+}
+.head-sec3 h3 span{
+	font-size: 15px;
+	color: rgb(252, 207, 3);
+	font-weight: lighter;
+
+}
+
+.sec4{
+	text-align: center;
+	position: relative;
+	background: url("./Task5/Images/callaction-bg.jpg") no-repeat center center;
+	height: 385px;
+}
+.filter3{
+	position: absolute;
+	width: 100%;
+	background-color: rgba(2, 0, 23,0.8);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.sec4 h1{
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+.sec4 p{
+	text-align: center;
+	color: white;
+	padding: 10px 50px 10px 50px;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.sec4 button{
+	text-align: center;
+	color: rgb(252, 207, 3);
+	border:rgb(252, 207, 3) 1px solid;
+	background: none;
+	font-weight: bold;
+	margin: 20px 0px 0px 0px;
+	padding: 15px 30px;
+}
+.cont-sec4{
+	margin: 40px 90px;
+}
+footer{
+	background-color: rgb(2, 0, 23);
+	padding: 90px 50px 30px 80px;
+	display: flex;
+	justify-content: space-around;
+}
+footer h5{
+	color: white;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+footer ul{
+	color: gray;
+	font-size: 15px;
+	line-height: 2;
+	list-style: none;
+}
+footer p{
+	color: gray;
+	font-size: 15px;
+}
+footer i{
+	color: gray;
+}
+.social2{
+	display: flex;
+	justify-content: space-around;
+}
+.social2 li{
+	padding: 10px 15px;
+
+}
+.social2 li i{
+	color: white;
+}
+footer input{
+	border:none;
+	outline: none;
+	padding: 10px;
+	height: 15px;
+	margin-top: 20px;
+	width: 300px;
+
+}
+.copy{
+	text-align: center;
+	padding: 60px;
+	color: gray;
+	background-color: rgb(2, 0, 23);
+}
+footer form{
+	display: flex;
+	justify-content: space-start;
+}
+footer form .sq{
+	background-color: rgb(252, 207, 3);
+	color: white;
+	font-weight: lighter;
+	width: 35px;
+	height: 35px;
+	margin-top: 20px;
+	text-align: center;
+	border:none;
+	outline: none;
+}
+.sq i{
+	color: white;
+	font-weight: 13px;
+}
+.cards-box2{
+	display: flex;
+	justify-content: space-around;
+	padding-right: 60px;
+	padding-left: 60px;
+	padding-top: 50px;
+}
+.sec5{
+	padding: 40px 30px;
+	background-color: rgb(247, 247, 252);
+}
+.sec5 h1{
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 35px;
+}
+.sec5 p{
+	text-align: center;
+	color: gray;
+	font-size: 15px;
+	padding-bottom: 30px;
+}
+.card2{
+	margin: 5px;
+	flex-basis: 260px;
+
+}
+.card2-img{
+	padding-bottom: 15px;
+}
+.date2{
+	background-color: black;
+	position: relative;
+	padding: 7px;
+	font-weight: lighter;
+	width: 100px;
+	font-size: 15px;
+	padding-left: 20px;
+	color: lightgray;
+	margin-bottom: 15px;
+}
+.card2-cont p{
+	padding-top: 10px;
+	text-align: left;
+}
+.react{
+	display: flex;
+	justify-content: space-between;
+	color: gray;
+	font-size: 15px;
+}
